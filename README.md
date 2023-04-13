@@ -34,6 +34,10 @@ Can we accurately predict the winner of the next competition for players based o
 
 ![](https://github.com/DavidJohnChartrand/bouldering_competition_model/blob/main/Images/ERD.png)
 
+
+# Data pipeline
+
+
 ## Getting Started
 
 Prerequisites
