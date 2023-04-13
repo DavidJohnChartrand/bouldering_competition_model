@@ -20,7 +20,7 @@ Private companies, particularly those in the climbing gear, gym, or outdoor expe
 
 https://www.kaggle.com/datasets/brkurzawa/ifsc-sport-climbing-competition-results
 
-# Questions to be answered
+## Questions to be answered
 
 Can we accurately predict the winner of the next competition for players based off their previous ratings?
 
