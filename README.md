@@ -24,7 +24,14 @@ https://www.kaggle.com/datasets/brkurzawa/ifsc-sport-climbing-competition-result
 
 Can we accurately predict the winner of the next competition for players based off their previous ratings?
 
+
+## Data pipeline
+
+![](https://github.com/DavidJohnChartrand/bouldering_competition_model/blob/main/Images/Data%20Pipeline.png)
+
+
 # Built With:
+
 
 * AWS
 * Postgres SQL + PgAdmin
@@ -34,10 +41,8 @@ Can we accurately predict the winner of the next competition for players based o
 
 ## Connecting the DB with pgAdmin:
 
+
 ![](https://github.com/DavidJohnChartrand/bouldering_competition_model/blob/main/Images/ERD.png)
-
-
-# Data pipeline
 
 
 ## Getting Started
