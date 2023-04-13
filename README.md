@@ -32,7 +32,7 @@ Can we accurately predict the winner of the next competition for players based o
 
 ## Connecting the DB with pgAdmin:
 
-
+![](https://github.com/DavidJohnChartrand/bouldering_competition_model/blob/main/Images/ERD.png)
 
 ## Getting Started
 
