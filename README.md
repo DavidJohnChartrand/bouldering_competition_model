@@ -50,3 +50,9 @@ Can we accurately predict the winner of the next competition for players based o
 Prerequisites
 
 * installation packages and software versions
+
+
+## Machine Learning Models
+
+Data Preprocessing
+In the data preprocessing phase the following steps were taken:
