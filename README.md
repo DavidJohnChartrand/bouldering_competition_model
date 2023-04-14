@@ -56,3 +56,9 @@ Prerequisites
 
 Data Preprocessing
 In the data preprocessing phase the following steps were taken:
+
+
+
+
+## Visualization
+
