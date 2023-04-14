@@ -30,7 +30,7 @@ Can we accurately predict the winner of the next competition for players based o
 ![](https://github.com/DavidJohnChartrand/bouldering_competition_model/blob/main/Images/Data%20Pipeline.png)
 
 
-# Built With:
+## Built With:
 
 
 * AWS
