@@ -62,4 +62,4 @@ In the data preprocessing phase the following steps were taken:
 
 
 ## Visualization
-
+![](https://github.com/DavidJohnChartrand/bouldering_competition_model/blob/main/Visualization/Bouldering%20Competition%20world%20wide.PNG)
