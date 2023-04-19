@@ -72,3 +72,22 @@ We recommend that our stakeholders use our random trees model to help determine 
 As the sport continues to grow in the coming year with its second showing at the summer Olympics this give our stakeholder an advantage in picking brand ambassadors. We look forward to continue improving our ability to determining potential winner and finalist as we continue to improve and working these models in the future.
 
 
+
+## Limitations related to the project
+
+* Database: Dataset does not contain additional information related to individual  player.
+
+* Machine Learning: Some of features that the model tends to consider as high on importance do not appeal on a logical/realistic level:
+An attempt to eliminate these features leads to lower accuracy, which we accept as a limitation of the model, given we still get an accuracy of greater than 85% which is considered appropriate for real life scenarios. 
+
+
+
+## Contributing 
+
+
+## David Chartrand, Gilaine Soares, Aditi Bindlish, Chu Nguyen Kien
+
+
+
+
+
