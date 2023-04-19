@@ -49,7 +49,7 @@ Can we accurately predict the finalists of the next competition for players base
 
 Prerequisites
 
-* installation packages and software versions and decided which model utilize:
+* installation packages and software versions 
 
 
 ## Machine Learning Models
@@ -64,8 +64,6 @@ Prerequisites
 
 ![](https://github.com/DavidJohnChartrand/bouldering_competition_model/blob/main/Visualization/Bouldering%20Competition%20world%20wide.PNG)
 
-
-## conclusion 
 
 
 
