@@ -65,6 +65,10 @@ Prerequisites
 ![](https://github.com/DavidJohnChartrand/bouldering_competition_model/blob/main/Visualization/Bouldering%20Competition%20world%20wide.PNG)
 
 
+## Conclusion / Findings
 
+We recommend that our stakeholders use our random trees model to help determine brand ambassadors, further they may want to use the features of importance graphics from the analysis to determine specific areas of interest and investigate them further. For example, while selecting brand ambassadors for the company it could be important to look for athletes coming from France and Japan as these two of the countries contribute the most statistically to our model. Athletes coming from these regions will therefore have  increase likelihood to get to the finial and improve the visibility of the brand. 
+
+As the sport continues to grow in the coming year with its second showing at the summer Olympics this give our stakeholder an advantage in picking brand ambassadors. We look forward to continue improving our ability to determining potential winner and finalist as we continue to improve and working these models in the future.
 
 
