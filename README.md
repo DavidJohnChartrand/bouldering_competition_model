@@ -49,15 +49,24 @@ Can we accurately predict the finalists of the next competition for players base
 
 Prerequisites
 
-* installation packages and software versions
+* installation packages and software versions and decided which model utilize:
 
 
 ## Machine Learning Models
 
-Data Preprocessing
+![](https://github.com/DavidJohnChartrand/bouldering_competition_model/blob/main/Images/Deep%20Neural%20Network.PNG)
 
-In the data preprocessing phase the following steps were taken:
+
+![](https://github.com/DavidJohnChartrand/bouldering_competition_model/blob/main/Images/Randon%20Forest.PNG)
 
 
 ## Visualization
+
 ![](https://github.com/DavidJohnChartrand/bouldering_competition_model/blob/main/Visualization/Bouldering%20Competition%20world%20wide.PNG)
+
+
+## conclusion 
+
+
+
+
