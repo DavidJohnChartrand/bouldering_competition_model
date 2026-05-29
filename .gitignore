@@ -127,4 +127,18 @@ venv.bak/
 dmypy.json
 
 # Pyre type checker
-.pyre/.DS_Store
+.pyre/
+.DS_Store
+
+# ML artifacts
+*.h5
+*.pb
+untitled_project/
+keras_tuner/
+
+# Databases
+*.db
+*.sqlite
+
+# Data
+*.csv

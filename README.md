@@ -1,93 +1,72 @@
+# Bouldering Competition — Likelihood to Win by Nation
 
-## Bouldering Competition - Likelihood to win by Nation
+> **Note:** This project is being actively reworked to predict IFSC World Cup bouldering results. The current models and findings below reflect the original group project (2023).
 
-## Project Overview: Group 2
+## Project Overview
 
-![](https://github.com/DavidJohnChartrand/bouldering_competition_model/blob/main/Images/Project%20Overview.PNG)
+![Project Overview](Images/Project%20Overview.PNG)
 
-
-## Project Inspirations
-
-Bouldering is an incredibly demanding and exciting sport that requires not only strength and endurance, but also mental agility and problem-solving skills. As the popularity of the sport continues to grow, the competition level becomes increasingly fierce, making it even more challenging for new and upcoming climbers to make their mark what that in mind we aimed to build a machine learning model that accurately predicts the next nation player of bouldering that would be the winner that we could contribuite to revolutionize the way approach talent identification in this dynamic and rapidly-evolving sport, and empower climbers worldwide to achieve their dreams and push the boundaries of what's possible.
-
-## Targeted Shareholders
-
-Private companies, particularly those in the climbing gear, gym, or outdoor expedition industries, may have a strong interest in identifying and supporting promising bouldering athletes. This is because top athletes can serve as ambassadors for their brand and help attract new customers. A machine learning model that accurately predicts the next rising star in bouldering can be a valuable tool for these companies, helping them identify and sponsor talented athletes and build their brand within the climbing community.
-
+Bouldering is a demanding sport requiring strength, endurance, and mental agility. This project uses IFSC competition results to build machine learning models that predict which nations are most likely to produce finalists and winners in bouldering competitions.
 
 ## Data Source
 
-https://www.kaggle.com/datasets/brkurzawa/ifsc-sport-climbing-competition-results
+[IFSC Sport Climbing Competition Results](https://www.kaggle.com/datasets/brkurzawa/ifsc-sport-climbing-competition-results) via Kaggle.
 
-## Questions to be answered
+## Data Pipeline
 
-Can we accurately predict the finalists of the next competition for players based off their previous ratings?
+![Data Pipeline](Images/Data%20Pipeline.png)
 
+## Repository Structure
 
-## Data pipeline
+```
+├── ETL/                        # Data cleaning and preparation
+├── Database/                   # SQLite database and integration notebook
+├── Machine_Learning/           # Model notebooks (neural network + random forest)
+├── Visualization/              # Tableau exports
+├── Images/                     # Diagrams and screenshots
+└── Final Presentation/         # Project presentation slides
+```
 
-![Data Pipeline](https://github.com/DavidJohnChartrand/bouldering_competition_model/blob/main/Images/Data%20Pipeline.png)
+## Setup
 
+### Prerequisites
 
-## Built With:
+- Python 3.10+
+- See `requirements.txt` for package dependencies
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-orange?style=for-the-badge&logo=Jupyter&logoColor=white)](https://jupyter.org/)
-[![SQLalchemy](https://img.shields.io/badge/SQLalchemy-red?style=for-the-badge&logo=sqlalchemy&logoColor=white)](https://www.sqlalchemy.org/)
-[![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org/index.html)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
-[![Tableau](https://img.shields.io/badge/Tableau-blue?style=for-the-badge&logo=Tableau&logoColor=white)](https://www.tableau.com/)
-
-
-## Connecting the DB with SQLite:
-
-
-![](https://github.com/DavidJohnChartrand/bouldering_competition_model/blob/main/Images/ERD.png)
-
-
-## Getting Started
-
-Prerequisites
-
-* installation packages and software versions 
-
+```bash
+pip install -r requirements.txt
+```
 
 ## Machine Learning Models
 
-![](https://github.com/DavidJohnChartrand/bouldering_competition_model/blob/main/Images/Deep%20Neural%20Network.PNG)
+Two model approaches were explored:
 
+### Deep Neural Network
 
-![](https://github.com/DavidJohnChartrand/bouldering_competition_model/blob/main/Images/Randon%20Forest.PNG)
+![Deep Neural Network](Images/Deep%20Neural%20Network.PNG)
 
+### Random Forest
+
+![Random Forest](Images/Random%20Forest.PNG)
+
+## Database (ERD)
+
+![ERD](Images/ERD.png)
 
 ## Visualization
 
-![](https://github.com/DavidJohnChartrand/bouldering_competition_model/blob/main/Visualization/Bouldering%20Competition%20world%20wide.PNG)
+![Bouldering Competition Worldwide](Visualization/Bouldering%20Competition%20world%20wide.PNG)
 
+## Findings
 
-## Conclusion / Findings
+The random forest model achieved >85% accuracy predicting whether a competitor would reach the finals. Feature importance analysis highlighted athletes from France and Japan as having the highest statistical likelihood of reaching finals — relevant for brand ambassador selection.
 
-We recommend that our stakeholders use our random trees model to help determine brand ambassadors, further they may want to use the features of importance graphics from the analysis to determine specific areas of interest and investigate them further. For example, while selecting brand ambassadors for the company it could be important to look for athletes coming from France and Japan as these two of the countries contribute the most statistically to our model. Athletes coming from these regions will therefore have  increase likelihood to get to the finial and improve the visibility of the brand. 
+## Limitations
 
-As the sport continues to grow in the coming year with its second showing at the summer Olympics this give our stakeholder an advantage in picking brand ambassadors. We look forward to continue improving our ability to determining potential winner and finalist as we continue to improve and working these models in the future.
+- Dataset lacks individual athlete attributes beyond competition results
+- Some high-importance features don't have intuitive explanations; removing them reduces accuracy
 
+## Contributors
 
-
-## Limitations related to the project
-
-* Database: Dataset does not contain additional information related to individual  player.
-
-* Machine Learning: Some of features that the model tends to consider as high on importance do not appeal on a logical/realistic level:
-An attempt to eliminate these features leads to lower accuracy, which we accept as a limitation of the model, given we still get an accuracy of greater than 85% which is considered appropriate for real life scenarios. 
-
-
-
-## Contributing 
-
-
-## David Chartrand, Gilaine Soares, Aditi Bindlish, Chu Nguyen Kien
-
-
-
-
-
+David Chartrand, Gilaine Soares, Aditi Bindlish, Chu Nguyen Kien
